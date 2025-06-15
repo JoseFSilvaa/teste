@@ -1,8 +1,8 @@
 body {
-    background-color: #dedbd2;
-    width: 1000px;
-    margin: 0 auto;
-    padding: 20px 0;
+  background-color: #dedbd2;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
@@ -37,55 +37,54 @@ body {
   background-color: rgb(0, 123, 255);
 }
 
-header{
-    text-align: center;
-}
-
-nav p {
-    text-align: left;
-}
-
 h1 {
-    color: #669bbc;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-
-header figure {
-    margin: 0 auto;
-}
-
-h2 {
-    color: #023e8a;
-    padding-top: 30px;
-    text-align: center;
-}
-
-p {
-    width: 800px;
-    text-align: justify;
-    margin: 0 auto 20px;
+  color: #669bbc;
+  font-family: "Copperplate Gothic Light", fantasy;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: center;
 }
 
 figure {
-    width: 700px;
-    margin: 20px auto;
-    text-align: center;
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+header figure {
+  margin: 40px auto;
 }
 
 table {
-    width: 600px;
-    margin: 20px auto;
-    border: 1px solid #00b4d8;
-    border-collapse: collapse;
+  border: #0079e3 solid 1px;
 }
 
-th, td {
-    border: 1px solid #03045e;
-    padding: 3px 8px;
-    text-align: left;
+table th,
+table td {
+  border: #0079e3 solid 1px;
 }
 
-th {
-    background-color: #778da9;
+h2 {
+  color: #023e8a;
+  padding-top: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: #023e8a;
+  width: 800px;
+  transform: translateX(40px);
+}
+
+a {
+  color: #0079e3;
+  text-decoration: unset;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  text-align: justify;
 }
