@@ -62,14 +62,20 @@ h2 {
 }
 
 table {
-  border: #0079e3 solid 1px;
-  text-align: center;
-  margin: 0 auto;
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #00b4d8;
+    border-collapse: collapse;
 }
 
-table th,
-table td {
-  border: #0079e3 solid 1px;
+th, td {
+    border: 1px solid #03045e;
+    padding: 3px 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #778da9;
 }
 
 .figurespodio {
