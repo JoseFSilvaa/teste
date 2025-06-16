@@ -55,33 +55,10 @@ header figure {
   margin: 40px auto;
 }
 
-table {
-    width: 600px;
-    margin: 20px auto;
-    border: 1px solid #00b4d8;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #03045e;
-    padding: 3px 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #778da9;
-}
-
 h2 {
   color: #023e8a;
   padding-top: 30px;
   text-align: center;
-}
-
-h3 {
-  color: #023e8a;
-  width: 800px;
-  transform: translateX(40px);
 }
 
 a {
