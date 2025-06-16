@@ -1,8 +1,8 @@
 body {
-    background-color: #dedbd2;
-    width: 1000px;
-    margin: 0 auto;
-    padding: 20px 0;
+  background-color: #dedbd2;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
@@ -37,22 +37,16 @@ body {
   background-color: rgb(0, 123, 255);
 }
 
-header{
-    text-align: center;
-}
-
-nav p {
-    text-align: left;
-}
-
 h1 {
-    color: #669bbc;
-    text-decoration: underline;
-    margin-bottom: 10px;
+  color: #669bbc;
+  font-family: "Copperplate Gothic Light", fantasy;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: center;
 }
 
 header figure {
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 h2 {
@@ -71,21 +65,4 @@ figure {
     width: 700px;
     margin: 20px auto;
     text-align: center;
-}
-
-table {
-    width: 600px;
-    margin: 20px auto;
-    border: 1px solid #00b4d8;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #03045e;
-    padding: 3px 8px;
-    text-align: left;
-}
-
-th {
-    background-color: #778da9;
 }

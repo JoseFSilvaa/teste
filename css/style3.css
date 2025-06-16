@@ -55,25 +55,10 @@ header figure {
   margin: 40px auto;
 }
 
-table {
-  border: #0079e3 solid 1px;
-}
-
-table th,
-table td {
-  border: #0079e3 solid 1px;
-}
-
 h2 {
   color: #023e8a;
   padding-top: 30px;
   text-align: center;
-}
-
-h3 {
-  color: #023e8a;
-  width: 800px;
-  transform: translateX(40px);
 }
 
 a {
